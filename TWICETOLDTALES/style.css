@@ -1,0 +1,435 @@
+body {
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 1.35;
+  background-color: #ffffff;
+  color: #333333;
+  width: 1400px;
+  margin: 60px 30px 60px 30px;
+
+}
+
+header {
+ display: grid;
+ grid-template-columns: repeat(12,1fr);
+ gap: 30px 30px;
+}
+
+.option, .search {
+  display: none;
+}
+
+h1 {
+ font-family: Raleway;
+ font-weight: 600;
+ font-size: 24px;
+ letter-spacing: 0.1em;
+ margin: 10px;
+
+ grid-column: 1 / span 3;
+ text-align: left;
+}
+
+nav.menu {
+ margin: 15px;
+ font-family: Roboto;
+ font-size: 14px;
+ letter-spacing: 0.1em;
+
+ grid-column: 4 / span 6;
+ text-align: left;
+}
+
+.account {
+  text-align: center;
+  margin-top: 0px;
+  grid-column: 10 / span 5;
+}
+
+.account a{
+  background-color: #ffff;
+  border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid #fa6400;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #333333;
+
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+
+  display: inline-block;
+  margin: 10px;
+  padding: 5px 40px;
+
+}
+
+.account a:hover {
+  background-color: #Ffff;
+  color: #FA6400;
+  font-weight: 800;
+  border: 1px solid #FA6400;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s, font-weight 0.3s;
+  margin: 0 0 0 30px;
+}
+
+a:hover {
+  color: #005aff;
+  font-weight: 800;
+}
+
+section.part1 {
+  text-align: center;
+  display: block;
+}
+
+div.arrow {
+ text-align: left;
+ margin: 65px 0 0 0;
+ min-height: 5px;
+}
+
+div.bar {
+ display: block;
+ text-align: center;
+ max-height: 5px;
+ margin: 50px
+}
+
+h2 {
+ text-align: center;
+ margin: 55px 0 0 0;
+ color: #005AFF;
+ font-family: Raleway;
+ font-style: normal;
+ font-weight: 800;
+ font-size: 42px;
+ line-height: 42px;
+ letter-spacing: 0.2em;
+}
+
+p {
+  text-align: center;
+  font-family: 'Roboto';
+  letter-spacing: 0.05rem;
+  line-height: 1.8;
+}
+
+.Hi {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin: 25px 0 0 0;
+
+  color: #FA6400;
+}
+
+.rate {
+  grid-column: 3 / span 8;
+  text-align: center;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.1em;
+   margin: 25px 0 0 0;
+
+  color: #2C2C2C;
+}
+
+.book {
+  grid-column: 3 / span 8;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.1em;
+   margin: 25px 0 0 0;
+
+  color: #979797;
+}
+
+
+.book1 {
+  text-align:center;
+  display:flex;
+  margin-left: 180px;
+}
+
+
+section.part2 {
+  text-align: center;
+  display: block;
+  margin: 25px 0 0 0;
+}
+
+.have {
+  background-color: #Ffff;
+  border-radius: 15px;
+  border: 1px solid #005AFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #2C2C2C;
+
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+
+  display: inline-block;
+  margin: 0 40px;
+  padding: 10px 50px;
+
+
+}
+
+.have:hover {
+  background-color: #005aff;
+  color: #ffffff;
+}
+
+.want {
+  background-color: #Ffff;
+  border-radius: 15px;
+  border: 1px solid #005AFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #2C2C2C;
+
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+
+  display: inline-block;
+  margin: 40px;
+  padding: 10px 50px;
+}
+
+.want:hover {
+  background-color: #005aff;
+  color: #ffffff;
+}
+
+
+.next a {
+  background-color: #FA6400;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #ffff;
+
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  display: inline-block;
+  margin: 28px;
+  padding: 20px 100px;
+  text-transform: uppercase;
+}
+
+.next a:hover {
+  background-color: #Ffff;
+  color: #FA6400;
+  font-weight: 800;
+  border: 1px solid #FA6400;
+}
+
+.rating {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%) rotateY(180deg);
+  display: flex;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  display: flex; 
+  cursor: pointer;
+  width: 50px;
+}
+
+.rating label:before {
+  content: "\f005";
+  font-family: fontAwesome;
+  position: relative;
+  display: block;
+  font-size: 30px;
+  color: #c4c4c4;
+}
+
+.rating label:after {
+  content: "\f005";
+  font-family: fontAwesome;
+  position: absolute;
+  display: block;
+  font-size: 30px;
+  color: #FA6400;
+  top:0;
+  opacity: 0;
+  transition: .5s;
+  text-shadow:0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after
+{
+  opacity: 1;
+}
+
+@media (max-width: 1390px) {
+  body {
+    width: auto;
+    margin: 60px 30px 60px 30px;
+  }
+
+h1 {
+ font-size: 18px;
+ grid-column: 2 / span 10;
+ text-align: center;
+}
+
+
+div.book1 {
+  align-items: center;
+  justify-content:center;
+  margin: 25px;
+}
+
+nav.menu {
+  font-size: 14px ;
+  grid-column: 2 / span 10;
+  text-align: center;
+  line-height: 32px;
+  }
+
+h2 {
+   line-height: 56px;
+    font-size: 32px;
+}
+
+ nav.account {
+  display:none ;
+ }
+
+.have {
+  font-size: 12px;
+  margin: 5px 10px;
+}
+
+.want {
+  font-size: 12px;
+  margin: 5px 0 0 10px;
+  }
+
+div.arrow {
+ min-width: 25px
+}
+
+.next a {
+  font-size: 14px;
+  padding: 20px 80px;
+}
+.rating{
+  margin: -30px;
+}
+}
+
+
+@media (max-width: 800px) {
+  body {
+    width: auto;
+    margin: 60px 30px 60px 30px;
+  }
+
+
+.option, .search {
+  display: inline;
+}
+
+.option {
+  min-width: 20px;
+  text-align: right;
+}
+
+.search{
+  min-width: 20px;
+  grid-column: 12 / span 1;
+  text-align: right;
+}
+
+div.arrow {
+ min-width: 20px;
+}
+
+h1 {
+ font-size: 14px;
+ text-align: center;
+ display: block;
+}
+
+nav {
+ display: none;
+  }
+
+h2 {
+ font-size: 24px;
+ text-align: center;
+ display: block;
+ line-height: 32px;
+}
+
+.Hi {
+  font-size: 12px;
+}
+
+.rate {
+  font-size: 24px;
+}
+
+.book {
+  font-size: 10px;
+}
+
+.have {
+  font-size: 10px;
+  padding: 5px 20px;
+  margin: 10px 10px;
+}
+
+.want {
+  font-size: 10px;
+  padding: 5px 20px;
+  margin: 10px 0 0 10px;
+}
+
+.next a {
+  font-size: 12px;
+  padding: 10px 50px;
+}
+
+.rating{
+  margin: -30px;
+}
+
+
+}
